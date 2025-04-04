@@ -1,3 +1,6 @@
+-- Example with UI, you can use any UI library
+
+
 -- Load the FTAP API module
 local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/FTAP-Module/refs/heads/main/Module/ModuleFTAP"))()
 
