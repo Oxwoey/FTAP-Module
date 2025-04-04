@@ -1,5 +1,5 @@
 -- Load the FTAP API module
-local ApiFTAP = loadstring(game:HttpGet(""))()
+local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/FTAP-Module/refs/heads/main/Module/ModuleFTAP"))()
 
 -- Load the UI library
 local OrionLib = loadstring(game:HttpGet("your_orion_gui"))()
