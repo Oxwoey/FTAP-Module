@@ -114,7 +114,3 @@ ApiFTAP.DestroyServerWhite(false) -- Ignore friends
 -- DestroyServer(Value: boolean)
 -- DestroyServerWhite(Value: boolean)
 ```
-
--- DestroyServer(Value: boolean)
--- DestroyServerWhite(Value: boolean)
-```
