@@ -22,7 +22,7 @@
 Add the module to your script:  
 
 ```lua
-local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/ApiFTAP/main/Api/example.lua"))()
+local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/FTAP-Module/refs/heads/main/Module/ModuleFTAP"))()
 ```
 
 ---
