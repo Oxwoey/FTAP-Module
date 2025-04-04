@@ -58,5 +58,5 @@ ApiFTAP.KickAura(true)
 
 ## 🔗 Useful Links
 
-- 📄 **[Full Documentation](Api/documentation.md)**
-- 📝 **[Example Code](Api/example.lua)**
+- 📄 **[Full Documentation](Module/documentation.md)**
+- 📝 **[Example Code](Module/example.lua)**
