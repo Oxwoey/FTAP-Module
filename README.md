@@ -1,4 +1,4 @@
-# 🚀 Elysium API (FTAP Module) [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Oxwoey.FTAP-Module)]
+# 🚀 Elysium API (FTAP Module) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Oxwoey.FTAP-Module)
 **Test version**
 
 **This module provides functions for the "Fling Things and People" game. Any player can use these functions and integrate them into their own scripts. The module is regularly updated and includes webhook configuration.**  
