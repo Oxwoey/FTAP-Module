@@ -21,6 +21,23 @@ ApiFTAP:SetSettings({
 -- SetSettings(settings: table)
 ```
 
+## ❌ BlackList Settings
+### Blacklist
+```lua
+ApiFTAP:Blacklist({
+    BlacklistToggle = true, -- Enable or disable blacklist checking
+    Url = "https://pastebin.com/raw/JYvCaxAV", -- URL to your blacklist (Pastebin or GitHub raw link)
+    KickText = "idk" -- Message shown when a player is kicked
+})
+```
+**📄 Remote Blacklist Format**
+```lua
+["Player1", "Player2", "Horomori"]
+```
+
+
+## 🌟 Features
+
 ### AntiGrab
 ```lua
 ApiFTAP.AntiGrab(true)
