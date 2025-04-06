@@ -8,11 +8,23 @@
 
 ## 📑 Update Log
 
-<details> 
+<details>
   <summary>2025-04-04</summary>
-  
+
   - **v1.0b (BETA)** – Initial release
-  
+
+</details>
+
+<details>
+  <summary>2025-04-07</summary>
+
+  - **v2.0** – Full release (no longer BETA)
+  - Fully rewritten and optimized module
+  - All functions fully fixed and stable
+  - Added **Blacklist** system with external URL support
+  - Improved code structure and performance
+  - Updated documentation and configuration options
+  - Ready for production use
 </details>
 
 ---
