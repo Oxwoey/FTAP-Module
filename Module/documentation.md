@@ -45,11 +45,11 @@ ApiFTAP.AntiGrab(false)
 -- AntiGrab(Value: boolean)
 ```
 
-### AntiExploit
+### AntiExploin
 ```lua
-ApiFTAP.AntiExploit(true)
-ApiFTAP.AntiExploit(false)
--- AntiExploit(Value: boolean)
+ApiFTAP.AntiExploin(true)
+ApiFTAP.AntiExploin(false)
+-- AntiExploin(Value: boolean)
 ```
 
 ### AntiBlobman
